@@ -48,7 +48,7 @@ public class Contact {
 
     public static Contact createContact(){
         Scanner sc=  new Scanner(System.in);
-        System.out.println("ENter name");
+        System.out.println("Enter name");
         String name= sc.next();
         System.out.println("Email");
         String email = sc.next();
